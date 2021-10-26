@@ -1,7 +1,7 @@
 const workout = [
-  {text: 'Upper body push day', chest: 'bench press', shoulders: 'military press', triceps: 'cable pulldowns'},
-  {text: 'Leg day', quads: 'leg press', hams: 'leg curls'},
-  {text: 'Upper body pull day', back: 'barbell rows', biceps: 'dumbbell curls'},
+  {text: 'Upper body push day', day: 'Monday', chest: 'bench press', shoulders: 'military press', triceps: 'cable pulldowns'},
+  {text: 'Leg day', day: 'Wednesday', quads: 'leg press', hams: 'leg curls'},
+  {text: 'Upper body pull day', day: 'Friday', back: 'barbell rows', biceps: 'dumbbell curls'},
 ]
 
 const find = (conditions, callback) => {
