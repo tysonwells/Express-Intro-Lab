@@ -14,9 +14,14 @@
     <ul>
       <% workout.forEach(function(routine) { %>
         <li>
-          <%= routine.text %>
+          <%= routine.muscleGroups %>
           -
           <%= routine.day %>
+            <ul>
+              <li>
+                <%= routine.groupOne %>
+              </li>
+            </ul>
         </li>
       <% }); %>
     </ul>
